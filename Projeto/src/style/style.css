@@ -26,6 +26,28 @@ main {
     width: 100%;
     color: var(--cor_principal);
     background-color: var(--cor_secundaria);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main img{
+    width: 70%;
+}
+.text {
+    width: 30%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 10px;
+}
+.text h1 {
+    width: 80%;
+    font-weight: bold;
+    font-size: 40px;
+}
+.text p {
+    width: 80%;
+    font-size: 20px;
 }
 footer {
     width: 100%;
